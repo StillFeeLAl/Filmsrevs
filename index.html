@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>films</title>
+    <link rel="stylesheet" href="./src/main.css">
+    <link rel="stylesheet" href="./src/header.css">
+    <link rel="stylesheet" href="./src/view.css">
+  </head>
+
+
+  <section class="header">
+    <div class="container">
+      <div class="logo"> 
+        <img src="public/logo.png" alt="#">
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="searchset">
+    <div class="container">
+      <div class="maintext">
+        <h2>Films</H2>
+          <p>List of movies and TV Shows. Start search to see the results.</p>
+      </div>
+      <div class="search">
+        <button>Search</button>
+      </div>
+      <div class="searchlist">
+        <ul>
+          <li class="listitem"> 
+            <a href="#">All</a>
+          </li>
+          <li class="listitem"> 
+            <a href="#">Movies</a>
+          </li>
+          <li class="listitem"> 
+            <a href="#">Series</a>
+          </li>
+          <li class="listitem"> 
+            <a href="#">Episodes</a>
+          </li>
+        </ul>
+      </div>
+      <div class="maintext">
+        <span>Searched Films</span> <span class="searchres">()</span>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="films">
+    <div class="container">
+      <div class="filmcard">
+        <div class="rew"> star 0.0</div>
+        <div class="filmimg"> img</div>
+        <div class="filmname"> 
+          <p>example</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
